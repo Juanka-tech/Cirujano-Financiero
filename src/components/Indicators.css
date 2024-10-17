@@ -1,0 +1,45 @@
+.indicators-container {
+    padding: 20px;
+  }
+  
+  .indicator-category {
+    margin-bottom: 30px;
+  }
+  
+  .flashcards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .indicator-card {
+    background-color: #2a2a3b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: calc(33.333% - 10px);
+    text-align: center;
+  }
+  
+  .indicator-card h5 {
+    font-size: 1.2rem;
+    color: #00b4d8;
+    margin-bottom: 10px;
+  }
+  
+  .indicator-card p {
+    color: #adb5bd;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .indicator-card {
+      width: calc(50% - 10px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .indicator-card {
+      width: 100%;
+    }
+  }  

@@ -1,0 +1,19 @@
+.footer {
+    background-color: #2a2a3b;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact-info p,
+  .footer-links a {
+    color: #fff;
+    margin: 5px 0;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    color: #00b4d8;
+  }  
