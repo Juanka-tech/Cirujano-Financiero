@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="contact-info">
-        <p><strong>Dirección:</strong> Calle 123, Medellín, Colombia</p>
+        <p><strong>Dirección:</strong>Medellín, Colombia</p>
         <p><strong>Teléfono:</strong> +57 123 456 789</p>
         <p><strong>Email:</strong> contacto@cirujanofinanciero.com</p>
       </div>
